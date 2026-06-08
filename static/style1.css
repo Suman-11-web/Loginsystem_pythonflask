@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 90vh;
+    width: 100%;
+}
+
+.login-box{
+    padding: 80px 20px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+input{
+    padding: 6px;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid  #04AA6D;
+    border-radius: 8px;
+}
+
+button {
+    background-color: aquamarine;
+    padding: 8px;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid  #04AA6D;
+    border-radius: 8px;
+    font-weight: bold;
+}
