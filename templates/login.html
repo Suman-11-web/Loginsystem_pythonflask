@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login to access Admin dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <section class="box">
+        <form action="/login" method="post">
+        <label for="name">enter username</label>
+        <input type="text" placeholder="enter admin id" name="username" required>
+        <label for="password">enter password</label>
+        <input type="password" placeholder="enter password" name="password" required>
+        <button type="submit">login</button>
+        </form>
+    </section>
+
+    
+</body>
+</html>
